@@ -1,0 +1,1 @@
+* Has a constraint which every node has either zero or two children.

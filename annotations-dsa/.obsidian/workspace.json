@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trees/Types.md",
+                "file": "Trees/Traversing a Binary Tree/In-order traversal.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trees/Types.md",
+                "file": "Trees/Traversing a Binary Tree/In-order traversal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trees/Types.md",
+                "file": "Trees/Traversing a Binary Tree/In-order traversal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trees/Types.md"
+                "file": "Trees/Traversing a Binary Tree/In-order traversal.md"
               }
             }
           }
@@ -148,8 +148,18 @@
   },
   "active": "660faebac63b7de2",
   "lastOpenFiles": [
+    "Trees/Types/Perfect Binary Trees.md",
+    "Trees/Traversing a Binary Tree/In-order traversal.md",
+    "Trees/Traversing a Binary Tree",
+    "Trees/Types/perfect-binary-tree.png",
+    "Trees/Types/Full Binary Trees.md",
+    "Trees/Types/Complete Binary Trees.md",
+    "Trees/Types/Balanced and Unbalanced trees.md",
+    "Trees/Types/Binary Search Tree.md",
+    "Trees/Types/Binary Tree.md",
+    "Trees/Types/Introduction.md",
+    "Trees/Types",
     "Trees/Introduction.md",
-    "Trees/Types.md",
     "Graphs/Introduction.md",
     "Graphs",
     "Trees"

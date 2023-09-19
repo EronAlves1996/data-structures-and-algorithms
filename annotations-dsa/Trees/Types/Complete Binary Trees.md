@@ -1,0 +1,1 @@
+* Every level of the tree is fully filled except the very last level, which is filled left to the right
