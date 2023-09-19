@@ -11,8 +11,12 @@
             "id": "660faebac63b7de2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Trees/Types.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Trees/Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Trees/Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Trees/Types.md"
+              }
             }
           }
         ]
@@ -139,5 +147,11 @@
     }
   },
   "active": "660faebac63b7de2",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Trees/Introduction.md",
+    "Trees/Types.md",
+    "Graphs/Introduction.md",
+    "Graphs",
+    "Trees"
+  ]
 }
