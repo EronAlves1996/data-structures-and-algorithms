@@ -7,6 +7,18 @@ public class BinaryTree<T> {
     inOrderTraversalHelper(root);
   }
 
+  public void preOrderTraversal(){
+    preOrderTraversalHelper(root);
+  }
+
+  private void preOrderTraversalHelper(BinaryTreeNode<T> node){
+    if(node != null){
+      visit(node);
+      preOrderTraversalHelper(node.left);
+      preOrderTraversalHelper(node.right);
+    }
+  }
+
   private void inOrderTraversalHelper(BinaryTreeNode<T> node){
     if(node != null){
       inOrderTraversalHelper(node.left);
@@ -14,6 +26,7 @@ public class BinaryTree<T> {
       inOrderTraversalHelper(node.right);
     }
   }
+
 
   private void visit(BinaryTreeNode<T> node){
     System.out.println(node.value);

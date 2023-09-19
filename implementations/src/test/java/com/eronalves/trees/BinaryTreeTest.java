@@ -2,6 +2,7 @@ package com.eronalves.trees;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
@@ -11,6 +12,8 @@ import java.io.PrintStream;
 public class BinaryTreeTest {
 
   private PrintStream println;
+  private BinaryTree<Integer> bt;
+
 
   private ByteArrayOutputStream mockPrintln(){
     ByteArrayOutputStream bo = new ByteArrayOutputStream();
@@ -22,6 +25,15 @@ public class BinaryTreeTest {
     return bo;
   }
 
+  @BeforeEach
+  public void setupBasicTree(){
+    bt = new BinaryTree<>();
+    var btn = new BinaryTreeNode<>(1);
+    btn.left = new BinaryTreeNode<>(2);
+    btn.right = new BinaryTreeNode<>(3);
+    bt.root = btn;
+  }
+
   @AfterEach
   public void restorePrintln (){
     System.setOut(println);
@@ -31,18 +43,25 @@ public class BinaryTreeTest {
   public void inOrderTraversalTest() throws IOException {
     ByteArrayOutputStream bo = mockPrintln();
 
-    BinaryTree<Integer> integerBinaryTree = new BinaryTree<>();
-    integerBinaryTree.root = new BinaryTreeNode<>(1);
-    var root = integerBinaryTree.root;
-    root.left = new BinaryTreeNode<>(2);
-    root.right = new BinaryTreeNode<>(3);
-
-    integerBinaryTree.inOrderTraversal();
+    bt.inOrderTraversal();
 
     bo.flush();
     String printedOut = new String(bo.toByteArray());
 
     // /r/n is windows default format for line carrier
     Assertions.assertEquals("2\r\n1\r\n3\r\n", printedOut);
+  }
+
+  @Test
+  public void preOrderTraversal() throws IOException {
+    ByteArrayOutputStream bo = mockPrintln();
+
+    bt.preOrderTraversal();
+
+    bo.flush();
+
+    String printedOut = new String(bo.toByteArray());
+
+    Assertions.assertEquals("1\r\n2\r\n3\r\n", printedOut);
   }
 }
