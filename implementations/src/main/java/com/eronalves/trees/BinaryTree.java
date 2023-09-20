@@ -31,4 +31,16 @@ public class BinaryTree<T> {
   private void visit(BinaryTreeNode<T> node){
     System.out.println(node.value);
   }
+
+  public void postOrderTraversal () {
+    postOrderTraversalHelper(root);
+  }
+
+  private void postOrderTraversalHelper (BinaryTreeNode<T> node) {
+    if(node != null){
+      postOrderTraversalHelper(node.left);
+      postOrderTraversalHelper(node.right);
+      visit(node);
+    }
+  }
 }

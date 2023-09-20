@@ -64,4 +64,17 @@ public class BinaryTreeTest {
 
     Assertions.assertEquals("1\r\n2\r\n3\r\n", printedOut);
   }
+
+  @Test
+  public void postOrderTraversal() throws IOException {
+    ByteArrayOutputStream bo = mockPrintln();
+
+    bt.postOrderTraversal();
+
+    bo.flush();
+
+    String printedOut = new String(bo.toByteArray());
+
+    Assertions.assertEquals("2\r\n3\r\n1\r\n", printedOut);
+  }
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trees/Traversing a Binary Tree/Pre-order traversal.md",
+                "file": "Trees/Traversing a Binary Tree/Post-order traversal.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trees/Traversing a Binary Tree/Pre-order traversal.md",
+                "file": "Trees/Traversing a Binary Tree/Post-order traversal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trees/Traversing a Binary Tree/Pre-order traversal.md",
+                "file": "Trees/Traversing a Binary Tree/Post-order traversal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trees/Traversing a Binary Tree/Pre-order traversal.md"
+                "file": "Trees/Traversing a Binary Tree/Post-order traversal.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "660faebac63b7de2",
   "lastOpenFiles": [
-    "Trees/Traversing a Binary Tree/In-order traversal.md",
     "Trees/Traversing a Binary Tree/Pre-order traversal.md",
+    "Trees/Traversing a Binary Tree/Post-order traversal.md",
+    "Trees/Traversing a Binary Tree/In-order traversal.md",
     "Trees/Types/Perfect Binary Trees.md",
     "Trees/Traversing a Binary Tree",
     "Trees/Types/perfect-binary-tree.png",
