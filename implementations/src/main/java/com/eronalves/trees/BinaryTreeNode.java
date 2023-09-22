@@ -1,8 +1,5 @@
 package com.eronalves.trees;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class BinaryTreeNode<T> {
   public T value;
   public BinaryTreeNode<T> left;
