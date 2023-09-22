@@ -1,8 +1,8 @@
 package com.eronalves.sorting;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import java.util.stream.IntStream;
+import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
 
@@ -15,9 +15,7 @@ public class InsertionSortTest {
 
     InsertionSort.insertionSort(source);
 
-    IntStream.range(0, target.length).forEach(i -> {
-      assertEquals(target[i], source[i]);
-    });
+    assertTrue(Arrays.equals(target, source));
   }
 
 }
