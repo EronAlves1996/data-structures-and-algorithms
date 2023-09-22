@@ -1,0 +1,1 @@
+The sorting problem states the way that we get an arbitrary number of elements and find a way to sort them.
