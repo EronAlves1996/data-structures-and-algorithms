@@ -1,0 +1,1 @@
+Linked lists are linear, but we can implement it with cyclic order, with a circular linked list, where the tail next points back to head.
