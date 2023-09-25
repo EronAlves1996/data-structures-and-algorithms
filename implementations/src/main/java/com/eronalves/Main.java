@@ -1,7 +1,9 @@
 package com.eronalves;
 
+import com.eronalves.tamasiaexs.InputAllBaseTypes;
+
 public class Main {
-  public static void main (String[] args) {
-    System.out.println("Hello world!");
+  public static void main(String[] args) {
+    InputAllBaseTypes.inputAllBaseTypes();
   }
 }
