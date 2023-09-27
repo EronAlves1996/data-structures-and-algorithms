@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trees/Tries/Introduction.md",
+                "file": "Sorting/Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7daade87317f426",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Equivalency Testing/Introduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "c723985560a26507",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trees/Tries/Introduction.md",
+                "file": "Equivalency Testing/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trees/Tries/Introduction.md",
+                "file": "Equivalency Testing/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trees/Tries/Introduction.md"
+                "file": "Equivalency Testing/Introduction.md"
               }
             }
           }
@@ -146,10 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "660faebac63b7de2",
+  "active": "d7daade87317f426",
   "lastOpenFiles": [
-    "Trees/Binary Heaps/Introduction.md",
+    "Exercises.md",
+    "Equivalency Testing/Introduction.md",
+    "Equivalency Testing",
+    "Sorting/Introduction.md",
+    "Sorting/Insertion Sort.md",
+    "Linked Lists/Single Linked List.md",
+    "Linked Lists/Circular Linked List.md",
+    "Graphs/Introduction.md",
     "Trees/Tries/Introduction.md",
+    "Trees/Binary Heaps/Introduction.md",
     "Trees/Tries",
     "Trees/Traversing a Binary Tree/Post-order traversal.md",
     "Trees/Binary Heaps",
@@ -167,7 +188,6 @@
     "Trees/Types/Introduction.md",
     "Trees/Types",
     "Trees/Introduction.md",
-    "Graphs/Introduction.md",
     "Graphs",
     "Trees"
   ]
