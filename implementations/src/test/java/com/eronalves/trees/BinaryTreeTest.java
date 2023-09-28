@@ -14,8 +14,7 @@ public class BinaryTreeTest {
   private PrintStream println;
   private BinaryTree<Integer> bt;
 
-
-  private ByteArrayOutputStream mockPrintln(){
+  private ByteArrayOutputStream mockPrintln() {
     ByteArrayOutputStream bo = new ByteArrayOutputStream();
 
     // store the default instance here, to restore after
@@ -26,7 +25,7 @@ public class BinaryTreeTest {
   }
 
   @BeforeEach
-  public void setupBasicTree(){
+  public void setupBasicTree() {
     bt = new BinaryTree<>();
     var btn = new BinaryTreeNode<>(1);
     btn.left = new BinaryTreeNode<>(2);
@@ -35,7 +34,7 @@ public class BinaryTreeTest {
   }
 
   @AfterEach
-  public void restorePrintln (){
+  public void restorePrintln() {
     System.setOut(println);
   }
 
@@ -49,7 +48,7 @@ public class BinaryTreeTest {
     String printedOut = new String(bo.toByteArray());
 
     // /r/n is windows default format for line carrier
-    Assertions.assertEquals("2\r\n1\r\n3\r\n", printedOut);
+    Assertions.assertEquals("2\n1\n3\n", printedOut);
   }
 
   @Test
@@ -62,7 +61,7 @@ public class BinaryTreeTest {
 
     String printedOut = new String(bo.toByteArray());
 
-    Assertions.assertEquals("1\r\n2\r\n3\r\n", printedOut);
+    Assertions.assertEquals("1\n2\n3\n", printedOut);
   }
 
   @Test
@@ -75,6 +74,6 @@ public class BinaryTreeTest {
 
     String printedOut = new String(bo.toByteArray());
 
-    Assertions.assertEquals("2\r\n3\r\n1\r\n", printedOut);
+    Assertions.assertEquals("2\n3\n1\n", printedOut);
   }
 }
