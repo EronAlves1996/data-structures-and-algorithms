@@ -1,5 +1,5 @@
 Page 73 all from 1.5
-Page 115 all from 2.4
+Page 115 all from 2.5
 Page 163 all from 3.2
 Page 200 all from 4.1
 page 207
@@ -28,3 +28,7 @@ public class MenuBar {
 	}
 }
 ```
+
+#### 2.4
+
+It flawed because it is caught in an infinite loop, because if it's not charged and is bellow five, it gonna try to charge infinitely
