@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equivalency Testing/Introduction.md",
+                "file": "Exercises.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c723985560a26507",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Equivalency Testing/Introduction.md",
+                "file": "Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Equivalency Testing/Introduction.md",
+                "file": "Exercises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Equivalency Testing/Introduction.md"
+                "file": "Exercises.md"
               }
             }
           }
@@ -161,10 +162,16 @@
   },
   "active": "d7daade87317f426",
   "lastOpenFiles": [
+    "log_chart.png",
+    "Screenshot_2023-09-28-14-27-31_1366x768.png",
+    "Algorithm Analysis/Most important functions.md",
     "Exercises.md",
+    "Algorithm Analysis/Experiments.md",
+    "Sorting/Introduction.md",
+    "Algorithm Analysis/Introduction.md",
+    "Algorithm Analysis",
     "Equivalency Testing/Introduction.md",
     "Equivalency Testing",
-    "Sorting/Introduction.md",
     "Sorting/Insertion Sort.md",
     "Linked Lists/Single Linked List.md",
     "Linked Lists/Circular Linked List.md",
