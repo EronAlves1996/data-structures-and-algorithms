@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
+import com.eronalves.tamasiaexs.IsEven;
 import com.eronalves.tamasiaexs.IsMultiple;
 
 /**
@@ -16,5 +17,11 @@ public class PrimerTests {
   public void testIsMultiple() {
     assertTrue(IsMultiple.isMultiple(25, 5));
     assertFalse(IsMultiple.isMultiple(26, 5));
+  }
+
+  @Test
+  public void testIsEven() {
+    assertTrue(IsEven.isEven(20));
+    assertFalse(IsEven.isEven(15));
   }
 }
