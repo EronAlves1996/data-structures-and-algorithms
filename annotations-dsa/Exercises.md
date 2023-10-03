@@ -2,7 +2,7 @@ Page 73 all from 1.6
 Page 115 all from 2.6
 Page 163 all from 3.4
 Page 200 all from 4.3
-Page 238 all from 5.1
+Page 239 all from 5.2
 page 243
 
 ### Answers not in code
@@ -70,3 +70,19 @@ logn <= n² / 8
 2 <= n^8/n^2
 ```
 n0 =  1
+
+#### 5.1
+
+```
+algoritmo acharMaximo(arrayA):
+	tamanho = arrayA.tamanho
+	retorna arrayA[acharMaximo(arrayA, 0, 0)] 
+	
+metodo acharMaximo(arrayA, indiceMaximo, indiceAtual)
+	se(indiceAtual >= arrayA.tamanho) retorna indiceMaximo
+	se(arrayA[indiceAtual] > arrayA[indiceMaximo]) retorna acharMaximo(arrayA, indiceAtual, indiceAtual + 1)
+	retorna acharMaximo(arrayA, indiceMaximo, indiceAtual + 1)
+```
+
+Running Time: O(n), because it traverses all elements
+Space usage: O(n), because it mounts a stack trace for every element
