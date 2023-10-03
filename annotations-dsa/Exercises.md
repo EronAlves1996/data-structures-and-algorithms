@@ -1,5 +1,5 @@
 Page 73 all from 1.6
-Page 115 all from 2.5
+Page 115 all from 2.6
 Page 163 all from 3.3
 Page 200 all from 4.2
 Page 238 all from 5.1
@@ -34,6 +34,11 @@ public class MenuBar {
 
 It flawed because it is caught in an infinite loop, because if it's not charged and is bellow five, it gonna try to charge infinitely
 
+#### 2.5
+
+It doesn't depends on the visibility of the field. It gonna always flaw, because if not success, it gonna calls the same method again and not have any success
+
 #### 4.1
 
 ![[log_chart.png]]
+
