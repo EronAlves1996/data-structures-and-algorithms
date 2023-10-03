@@ -1,7 +1,7 @@
 Page 73 all from 1.6
 Page 115 all from 2.6
 Page 163 all from 3.4
-Page 200 all from 4.2
+Page 200 all from 4.3
 Page 238 all from 5.1
 page 243
 
@@ -46,3 +46,27 @@ First of all, we have to make sure how much gliphs the target alphabet have. Aft
 
 ![[log_chart.png]]
 
+#### 4.2
+
+It can be determined with the following inequation:
+
+```
+8nlogn <= 2n^2
+8 * n * logn <= 2 * n^2
+4 * (n * logn) / 2 <= n^2
+2 * ((n * logn) / 2) ^ 1/2 <= n
+((n * logn) / 2) ^ 1/2 <= n / 2
+(n * logn) / 2 <= (n / 2)^2
+(n * logn) / 2 <= n² / 4
+n * logn <= n² / 4 * 2
+logn <= (n² / 4 * 2) / n
+logn <= (n² / n) / (4 / n) * (2 / n)
+logn <= n / (4 / n) * (2 / n)
+logn <= n / 8 / n
+logn <= (n / 8) * (n / 1)
+logn <= n² / 8
+2^n²/8 <= n
+2 <= n^1/n^2/8
+2 <= n^8/n^2
+```
+n0 =  1
