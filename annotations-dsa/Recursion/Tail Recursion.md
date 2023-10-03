@@ -1,0 +1,1 @@
+When the recursive call is the vary last thing the method executes. Only supported by linear recursions.

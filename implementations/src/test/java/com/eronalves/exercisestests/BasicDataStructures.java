@@ -23,11 +23,12 @@ public class BasicDataStructures {
   }
 
   @Test
-  public void testRemoveRandomly(){
-    var intArray = new Integer[]{ 0, 2, 1, 5, 6, 0};
+  public void testRemoveRandomly() {
+    var intArray = new Integer[] { 0, 2, 1, 5, 6, 0 };
 
     RemoveRandomly.removeRamdomly(intArray);
 
     assertTrue(Arrays.stream(intArray).allMatch(el -> el == null));
   }
+
 }

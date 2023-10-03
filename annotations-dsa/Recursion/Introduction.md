@@ -1,0 +1,1 @@
+Technique where a method calls itself one or more talls during execution.

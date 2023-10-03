@@ -1,0 +1,1 @@
+A shape that has a self-recursive structure in various levels of magnification.
