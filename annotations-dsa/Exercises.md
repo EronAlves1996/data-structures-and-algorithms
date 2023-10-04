@@ -1,4 +1,4 @@
-Page 73 all from 1.6
+Page 73 all from 1.7
 Page 115 all from 2.6
 Page 163 all from 3.4
 Page 200 all from 4.3

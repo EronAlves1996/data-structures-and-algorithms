@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c723985560a26507",
@@ -162,10 +161,20 @@
   },
   "active": "d7daade87317f426",
   "lastOpenFiles": [
+    "Stacks/Introduction.md",
+    "Stacks/Abstract data type.md",
+    "Stacks/Implementing.md",
+    "Exercises.md",
+    "Stacks",
+    "Recursion/Tail Recursion.md",
+    "Recursion/Designing.md",
+    "Recursion/Fractal.md",
+    "Recursion/Activation Record.md",
+    "Recursion/Introduction.md",
+    "Recursion",
     "log_chart.png",
     "Screenshot_2023-09-28-14-27-31_1366x768.png",
     "Algorithm Analysis/Most important functions.md",
-    "Exercises.md",
     "Algorithm Analysis/Experiments.md",
     "Sorting/Introduction.md",
     "Algorithm Analysis/Introduction.md",
@@ -188,13 +197,7 @@
     "Trees/Traversing a Binary Tree",
     "Trees/Types/perfect-binary-tree.png",
     "Trees/Types/Full Binary Trees.md",
-    "Trees/Types/Complete Binary Trees.md",
-    "Trees/Types/Balanced and Unbalanced trees.md",
-    "Trees/Types/Binary Search Tree.md",
-    "Trees/Types/Binary Tree.md",
-    "Trees/Types/Introduction.md",
     "Trees/Types",
-    "Trees/Introduction.md",
     "Graphs",
     "Trees"
   ]
