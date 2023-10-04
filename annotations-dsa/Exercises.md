@@ -2,7 +2,7 @@ Page 73 all from 1.7
 Page 115 all from 2.7
 Page 163 all from 3.5
 Page 200 all from 4.4
-Page 239 all from 5.2
+Page 239 all from 5.3
 page 253
 
 ### Answers not in code
@@ -107,3 +107,9 @@ metodo acharMaximo(arrayA, indiceMaximo, indiceAtual)
 
 Running Time: O(n), because it traverses all elements
 Space usage: O(n), because it mounts a stack trace for every element
+
+#### 5.2
+
+1. modify the function signature to return int
+2. if low > high return -1
+3. if(target == data[mid]) return mid;
