@@ -1,7 +1,7 @@
 Page 73 all from 1.7
 Page 115 all from 2.7
 Page 163 all from 3.5
-Page 200 all from 4.3
+Page 200 all from 4.4
 Page 239 all from 5.2
 page 253
 
@@ -78,6 +78,19 @@ logn <= n² / 8
 2 <= n^8/n^2
 ```
 n0 =  1
+
+#### 4.3
+
+It can be determined with the followign inequation
+
+```
+40n² <= 2n³
+40 <= 2n
+n >= 20
+16000 >= 16000
+para 19
+14440 >= 13718
+```
 
 #### 5.1
 
