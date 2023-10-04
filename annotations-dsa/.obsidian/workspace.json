@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exercises.md",
+                "file": "Queues/Implementing.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exercises.md",
+                "file": "Queues/Implementing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exercises.md",
+                "file": "Queues/Implementing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exercises.md"
+                "file": "Queues/Implementing.md"
               }
             }
           }
@@ -161,10 +161,14 @@
   },
   "active": "d7daade87317f426",
   "lastOpenFiles": [
+    "Queues/ADT.md",
+    "Queues/Implementing.md",
+    "Queues/Introduction.md",
     "Stacks/Introduction.md",
+    "Queues",
+    "Exercises.md",
     "Stacks/Abstract data type.md",
     "Stacks/Implementing.md",
-    "Exercises.md",
     "Stacks",
     "Recursion/Tail Recursion.md",
     "Recursion/Designing.md",
@@ -192,13 +196,9 @@
     "Trees/Binary Heaps",
     "Trees/Untitled.md",
     "Trees/Traversing a Binary Tree/Pre-order traversal.md",
-    "Trees/Traversing a Binary Tree/In-order traversal.md",
-    "Trees/Types/Perfect Binary Trees.md",
     "Trees/Traversing a Binary Tree",
     "Trees/Types/perfect-binary-tree.png",
-    "Trees/Types/Full Binary Trees.md",
     "Trees/Types",
-    "Graphs",
-    "Trees"
+    "Graphs"
   ]
 }
