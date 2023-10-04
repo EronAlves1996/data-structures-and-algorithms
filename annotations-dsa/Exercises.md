@@ -1,5 +1,5 @@
 Page 73 all from 1.7
-Page 115 all from 2.6
+Page 115 all from 2.7
 Page 163 all from 3.4
 Page 200 all from 4.3
 Page 239 all from 5.2
@@ -37,6 +37,14 @@ It flawed because it is caught in an infinite loop, because if it's not charged 
 #### 2.5
 
 It doesn't depends on the visibility of the field. It gonna always flaw, because if not success, it gonna calls the same method again and not have any success
+
+#### 2.6
+
+```java
+Progression fib = new FibonacciProgression(2, 2);
+for(int i = 0; i < 7; i++) fib.advance();
+System.out.println(fib.nextValue());
+```
 
 #### 3.3
 
