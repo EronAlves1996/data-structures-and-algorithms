@@ -1,6 +1,6 @@
 Page 73 all from 1.8
 Page 115 all from 2.8
-Page 163 all from 3.5
+Page 163 all from 3.6
 Page 200 all from 4.4
 Page 239 all from 5.3
 page 263
@@ -60,6 +60,10 @@ It happens that 128 in fact is 2^7, and 128 * 128 is 2⁷ * 2⁷, that is 2^14. 
 #### 3.3
 
 First of all, we have to make sure how much gliphs the target alphabet have. After that, we could adapt the array and the codes with the gliphs, calculating  how to reach the base number to swap the chars for numbers and adapt the exercise.
+
+#### 3.5
+
+If we remove these two lines of code, consequently the pointer in tail will never get nullified. Even if the size of Linked List is 0, the tail will have a Node. However, the entire class will not break because of this and continue to work as expected, because the tail pointer is always manipulated when size is 0.
 
 #### 4.1
 
