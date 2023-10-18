@@ -1,8 +1,8 @@
 Page 73 all from 1.8
 Page 115 all from 2.8
 Page 163 all from 3.6
-Page 200 all from 4.4
-Page 239 all from 5.3
+Page 200 all from 4.5
+Page 239 all from 5.4
 page 263
 
 ### Answers not in code
@@ -132,3 +132,14 @@ Space usage: O(n), because it mounts a stack trace for every element
 1. modify the function signature to return int
 2. if low > high return -1
 3. if(target == data[mid]) return mid;
+
+#### 5.3
+
+```
+power(2,5)
+	return 2 * power(2, 4)
+		return 2 * power(2, 3)
+			return 2 * power(2, 2)
+				return 2 * power(2, 1)
+					return 1
+```
