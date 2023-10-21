@@ -3,7 +3,8 @@ Page 115 all from 2.8
 Page 163 all from 3.6
 Page 200 all from 4.5
 Page 239 all from 5.4
-page 263
+Page 270 all from 6.1
+page 276
 
 ### Answers not in code
 

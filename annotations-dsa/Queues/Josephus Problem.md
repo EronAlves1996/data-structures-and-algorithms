@@ -1,0 +1,1 @@
+The problem determines what element N reminds from a set of elements K, whether the removal of each element is maked randomly. THe elements is disposed in a circle.
