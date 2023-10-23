@@ -1,6 +1,6 @@
 Page 73 all from 1.9
 Page 115 all from 2.9
-Page 163 all from 3.6
+Page 163 all from 3.7
 Page 200 all from 4.5
 Page 239 all from 5.4
 Page 270 all from 6.1
@@ -70,6 +70,54 @@ First of all, we have to make sure how much gliphs the target alphabet have. Aft
 
 If we remove these two lines of code, consequently the pointer in tail will never get nullified. Even if the size of Linked List is 0, the tail will have a Node. However, the entire class will not break because of this and continue to work as expected, because the tail pointer is always manipulated when size is 0.
 
+#### 3.6
+
+```
+findSecondToLast(head)
+	if(head == null || head.next == null) return null;
+
+	var actual = head;
+	var next = head.next;
+	var last = head.next.next;
+	
+	while(true)
+		if(last == null) return actual;
+		if(last.next == null) return next;
+		actual = last;
+		next = last.next;
+		last = last.next.next;
+```
+
+By this algoritm:
+
+1 -> 2 -> 3
+
+head = 1
+head.next = 2
+
+actual = 1
+next = 2
+last = 3
+last.next = null so it gonna return 2!!
+
+1 -> 2 -> 3 -> 4 -> 5 -> 6
+
+head = 1
+head.next = 2
+
+actual = 1
+next = 2
+last = 3
+
+actual = 3
+next = 4
+last = 5
+
+actual = 5
+next = 6
+last = null
+
+last = nul, so it gonna return 5!!
 #### 4.1
 
 ![[log_chart.png]]
