@@ -1,7 +1,7 @@
 Page 73 all from 1.9
 Page 115 all from 2.9
 Page 163 all from 3.7
-Page 200 all from 4.5
+Page 200 all from 4.6
 Page 239 all from 5.4
 Page 270 all from 6.1
 page 276
@@ -164,6 +164,10 @@ para 19
 #### 4.4
 
 f(x) = 1
+
+#### 4.5
+
+Simply because logaritmic functions are almost inverse of exponential functions, by simply saying log2 with basis 2, it's 1, that way 2¹ = 2
 #### 5.1
 
 ```
