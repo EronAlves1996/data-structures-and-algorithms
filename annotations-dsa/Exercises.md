@@ -3,7 +3,7 @@ Page 115 all from 2.9
 Page 163 all from 3.7
 Page 200 all from 4.6
 Page 239 all from 5.5
-Page 270 all from 6.1
+Page 270 all from 6.2
 page 276
 
 ### Answers not in code
@@ -222,3 +222,19 @@ power(2,18)
 	partial = 512
 	return 512 * 512
 ```
+
+#### 6.1
+
+1 - Every push operation adds 1, so, we count the size as + 25
+2 - Every top operation dont modifies the stack
+3 - Every pop operation diminishes the stack by 1, but we have 3 pops that returned null that should be subtracted by the count
+
+So
+
+```
+PUSHES - (POPS - NULLS) = TOTAL
+25 - (10 - 3) = TOTAL
+TOTAL = 25 - 7
+TOTAL = 18
+```
+
