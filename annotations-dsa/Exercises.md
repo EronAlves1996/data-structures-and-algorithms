@@ -1,5 +1,5 @@
 Page 73 all from 1.9
-Page 115 all from 2.8
+Page 115 all from 2.9
 Page 163 all from 3.6
 Page 200 all from 4.5
 Page 239 all from 5.4
@@ -58,6 +58,10 @@ So to find this, we need the Long.MAX_VALUE from Java class:
 ![[Screenshot_2023-10-18-08-49-23_1280x720.png]]
 
 It happens that 128 in fact is 2^7, and 128 * 128 is 2⁷ * 2⁷, that is 2^14. So, what if we can divide 2^63 / 2^7 ? We find that this is 2^(63 - 7), with the result of 2^56. That way, we can expand this to 2^7 eigth times. That way. 128 * 8 = 1024. We need 1024 calls to `nextValue` to have a Integer overflow.
+
+#### 2.8
+
+Two interfaces cannot mutually extend each other, because it gonna causes a circular dependency problem.
 #### 3.3
 
 First of all, we have to make sure how much gliphs the target alphabet have. After that, we could adapt the array and the codes with the gliphs, calculating  how to reach the base number to swap the chars for numbers and adapt the exercise.
