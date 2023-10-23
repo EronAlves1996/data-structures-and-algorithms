@@ -2,7 +2,7 @@ Page 73 all from 1.9
 Page 115 all from 2.9
 Page 163 all from 3.7
 Page 200 all from 4.6
-Page 239 all from 5.4
+Page 239 all from 5.5
 Page 270 all from 6.1
 page 276
 
@@ -199,4 +199,26 @@ power(2,5)
 			return 2 * power(2, 2)
 				return 2 * power(2, 1)
 					return 1
+```
+
+#### 5.4
+
+```
+power(2,18)
+	partial = power(2, 9)
+		partial = power(2, 4)
+			partial = power(2, 2)
+				partial = power(2, 1)
+					partial = power(2, 0)
+						return 1
+					partial = 1
+					return 1 * 1 * 2
+				partial = 2
+				return 2 * 2
+			partial = 4
+			return 4 * 4
+		partial = 16
+		return 16 * 16 * 2	
+	partial = 512
+	return 512 * 512
 ```
