@@ -3,7 +3,7 @@ Page 115 all from 2.10
 Page 163 all from 3.8
 Page 200 all from 4.7
 Page 239 all from 5.6
-Page 270 all from 6.2
+Page 270 all from 6.3
 page 287
 
 ### Answers not in code
@@ -256,4 +256,10 @@ PUSHES - (POPS - NULLS) = TOTAL
 TOTAL = 25 - 7
 TOTAL = 18
 ```
+
+#### 6.2
+
+Push 25 times - t = 24
+Top is null operation
+Pop 10 times, but 7, because 3 of them returned null - t = 17
 
