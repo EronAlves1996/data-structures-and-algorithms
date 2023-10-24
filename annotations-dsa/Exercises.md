@@ -1,7 +1,7 @@
 Page 73 all from 1.10
 Page 115 all from 2.10
 Page 163 all from 3.8
-Page 200 all from 4.6
+Page 200 all from 4.7
 Page 239 all from 5.5
 Page 270 all from 6.2
 page 287
@@ -172,6 +172,13 @@ f(x) = 1
 #### 4.5
 
 Simply because logaritmic functions are almost inverse of exponential functions, by simply saying log2 with basis 2, it's 1, that way 2¹ = 2
+
+#### 4.6
+
+The sum of all even numbers from 0 to 2n is better described in terms of arithmetic progression, such, we have a first term 0, and a last term 2n.
+
+sum = (0 + 2n) * n / 2
+
 #### 5.1
 
 ```
