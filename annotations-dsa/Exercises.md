@@ -2,7 +2,7 @@ Page 73 all from 1.10
 Page 115 all from 2.10
 Page 163 all from 3.8
 Page 200 all from 4.7
-Page 239 all from 5.5
+Page 239 all from 5.6
 Page 270 all from 6.2
 page 287
 
@@ -232,6 +232,14 @@ power(2,18)
 		return 16 * 16 * 2	
 	partial = 512
 	return 512 * 512
+```
+
+#### 5.5
+
+```
+reverseArray(data, 0, 4)
+	reverseArray(data, 1, 3)
+		reverseArray(data, 2, 2)
 ```
 
 #### 6.1
