@@ -2,7 +2,7 @@ Page 73 all from 1.11
 Page 116 all from 2.11
 Page 163 all from 3.9
 Page 200 all from 4.8
-Page 239 all from 5.6
+Page 239 all from 5.7
 Page 270 all from 6.3
 page 300
 
@@ -270,6 +270,28 @@ power(2,18)
 reverseArray(data, 0, 4)
 	reverseArray(data, 1, 3)
 		reverseArray(data, 2, 2)
+```
+
+
+#### 5.6
+```
+PuzzleSolve(3, {}, {a,b,c,d})
+	PuzzleSolve(2, {a}, {b,c,d})
+		PuzzleSolve(1, {a, b}, {c, d})
+		PuzzleSolve(1, {a, c}, {b, d})
+		PuzzleSolve(1, {a, d}, {b, c})
+	PuzzleSolve(2, {b}, {a,c,d})
+		PuzzleSolve(1, {b, a}, {c, d})
+		PuzzleSolve(1, {b, c}, {a, d})
+		PuzzleSolve(1, {b, d}, {a, c})
+	PuzzleSolve(2, {c}, {a,b,d})
+		PuzzleSolve(1, {c,a}, {b, d})
+		PuzzleSolve(1, {c,b}, {a, d})
+		PuzzleSolve(1, {c,d}, {a, b})
+	PuzzleSolve(2, {d}, {a,b,c})
+		PuzzleSolve(1, {d, a}, {b, c})
+		PuzzleSolve(1, {d, b}, {a, c})
+		PuzzleSolve(1, {d, c}, {a, b})
 ```
 
 #### 6.1
