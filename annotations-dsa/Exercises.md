@@ -3,7 +3,7 @@ Page 116 all from 2.11
 Page 163 all from 3.9
 Page 200 all from 4.8
 Page 239 all from 5.7
-Page 270 all from 6.3
+Page 270 all from 6.4
 page 300
 
 ### Answers not in code
@@ -315,3 +315,22 @@ Push 25 times - t = 24
 Top is null operation
 Pop 10 times, but 7, because 3 of them returned null - t = 17
 
+#### 6.3
+
+push(5) -> void
+push(3) -> void
+pop() -> 3
+push(2) -> void
+push(8) -> void
+pop() -> 8
+pop() -> 2
+push(9) -> void
+push(1) -> void
+pop() -> 1
+push(7) -> void
+push(6) -> void
+pop() -> 6
+pop() -> 7
+push(4) -> void
+pop() -> 4
+pop() -> 9
