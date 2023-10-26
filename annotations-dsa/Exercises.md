@@ -1,7 +1,7 @@
 Page 73 all from 1.11
 Page 116 all from 2.11
-Page 163 all from 3.8
-Page 200 all from 4.7
+Page 163 all from 3.9
+Page 200 all from 4.8
 Page 239 all from 5.6
 Page 270 all from 6.3
 page 300
@@ -127,6 +127,24 @@ next = 6
 last = null
 
 last = nul, so it gonna return 5!!
+
+#### 3.8
+
+0 -> 1 -> 2 -> 3
+
+3 0
+2 1
+1
+
+0 -> 1 -> 2
+
+0 2
+1 1
+
+We can do it by the following method:
+
+We have two pointers, one that start at first node and one that starts at last node, an keep traversing each of them and adding every visited node in a visited set.
+The end cursors traverses first. When a cursor finds a visited node, then the middle is finded. The end cursor need traverses first to find the right spot for even numbers of nodes on linked list
 #### 4.1
 
 ![[log_chart.png]]
@@ -183,6 +201,13 @@ Simply because logaritmic functions are almost inverse of exponential functions,
 The sum of all even numbers from 0 to 2n is better described in terms of arithmetic progression, such, we have a first term 0, and a last term 2n.
 
 sum = (0 + 2n) * n / 2
+
+
+#### 4.7
+
+If f(n) = 1, so
+Running time is O(1).
+But worst case is O(1)
 
 #### 5.1
 
