@@ -1,5 +1,5 @@
 Page 73 all from 1.11
-Page 115 all from 2.10
+Page 116 all from 2.11
 Page 163 all from 3.8
 Page 200 all from 4.7
 Page 239 all from 5.6
@@ -66,6 +66,11 @@ Two interfaces cannot mutually extend each other, because it gonna causes a circ
 #### 2.9
 
 A potential disadvantage is really have a really big vtable to look for functions of instances, when resolving at runtime. Another disadvantage is potential circular dependency. 
+
+
+#### 2.10
+
+A potential disadvantage maybe is low reuse of code. Much duplication of code.
 #### 3.3
 
 First of all, we have to make sure how much gliphs the target alphabet have. After that, we could adapt the array and the codes with the gliphs, calculating  how to reach the base number to swap the chars for numbers and adapt the exercise.
