@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exercises.md",
+                "file": "Iterator/Lazy Iterator.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exercises.md",
+                "file": "Iterator/Lazy Iterator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exercises.md",
+                "file": "Iterator/Lazy Iterator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exercises.md"
+                "file": "Iterator/Lazy Iterator.md"
               }
             }
           }
@@ -158,8 +158,12 @@
   },
   "active": "660faebac63b7de2",
   "lastOpenFiles": [
-    "List/Positional List.md",
+    "Iterator/Snapshot Iterator.md",
+    "Iterator/Lazy Iterator.md",
+    "Iterator/Introduction.md",
     "Exercises.md",
+    "Iterator",
+    "List/Positional List.md",
     "List/Implementation.md",
     "List/ADT.md",
     "List",
@@ -190,13 +194,9 @@
     "Algorithm Analysis",
     "Equivalency Testing/Introduction.md",
     "Equivalency Testing",
-    "Sorting/Insertion Sort.md",
-    "Linked Lists/Single Linked List.md",
-    "Linked Lists/Circular Linked List.md",
     "Trees/Tries",
     "Trees/Binary Heaps",
     "Trees/Traversing a Binary Tree",
-    "Trees/Types/perfect-binary-tree.png",
-    "Trees/Types"
+    "Trees/Types/perfect-binary-tree.png"
   ]
 }
