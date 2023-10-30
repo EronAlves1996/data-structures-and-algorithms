@@ -1,7 +1,7 @@
 Page 73 all from 1.12
 Page 116 all from 2.12
 Page 163 all from 3.10
-Page 200 all from 4.8
+Page 200 all from 4.9
 Page 239 all from 5.7
 Page 270 all from 6.4
 page 311
@@ -219,6 +219,20 @@ sum = (0 + 2n) * n / 2
 If f(n) = 1, so
 Running time is O(1).
 But worst case is O(1)
+
+#### 4.8
+
+Ordered from lower growth rate to greater
+
+1. 2^10
+2. 4n
+3. 3n + 100logn
+4. nlogn
+5. 4nlogn + 2n
+6. 2^logn
+7. n²+10n
+8. n³
+9. 2^n
 
 #### 5.1
 
