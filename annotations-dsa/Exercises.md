@@ -4,8 +4,8 @@ Page 163 all from 3.11
 Page 200 all from 4.10
 Page 239 all from 5.9
 Page 270 all from 6.6
-Page 318 all from 7.1
-page 326
+Page 318 all from 7.2
+page 337
 
 ### Answers not in code
 
@@ -395,3 +395,18 @@ pop() -> 7
 push(4) -> void
 pop() -> 4
 pop() -> 9
+
+#### 7.1
+
+| **Method**    | **Return value** | **List contents**            |
+| --------- | ------------ | ------------------------ |
+| add(0, 4) | void         | (4)                      | 
+| add(0, 3) | void         | (3, 4)                   |
+| add(0, 2) | void         | (2, 3, 4)                |
+| add(2, 1) | void         | (2, 3, 1, 4)             |
+| add(1, 5) | void         | (2, 5, 3, 1, 4)          |
+| add(1, 6) | void         | (2, 6, 5, 3, 1, 4)       |
+| add(3, 7) | void         | (2, 6, 5, 7, 3, 1, 4)    | 
+| add(0, 8) | void         | (8, 2, 6, 5, 7, 3, 1, 4) |
+ 
+

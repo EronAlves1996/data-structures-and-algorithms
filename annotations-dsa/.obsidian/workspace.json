@@ -18,26 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "95c2ee405ba16da4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Exercise 2-12.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "d7daade87317f426",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Screenshot_2023-10-18-08-49-23_1280x720.png"
-              }
-            }
           }
         ]
       }
@@ -89,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 303.5124969482422
   },
   "right": {
     "id": "c723985560a26507",
@@ -170,8 +149,14 @@
   },
   "active": "660faebac63b7de2",
   "lastOpenFiles": [
-    "Excalidraw/Exercise 2-12.excalidraw.md",
+    "Trees/Types/Binary Tree.md",
+    "Trees/Introduction.md",
+    "Trees/ADT.md",
+    "Trees/Edges and Paths.md",
     "Exercises.md",
+    "Excalidraw/Exercise 7-1.excalidraw.md",
+    "Screenshot_2023-10-18-08-49-23_1280x720.png",
+    "Excalidraw/Exercise 2-12.excalidraw.md",
     "Excalidraw",
     "List/Locality of Reference.md",
     "List/Access Frequency List.md",
@@ -189,7 +174,6 @@
     "Queues/ADT.md",
     "Queues/Implementing.md",
     "Sorting/Introduction.md",
-    "Screenshot_2023-10-18-08-49-23_1280x720.png",
     "Queues/Introduction.md",
     "Stacks/Introduction.md",
     "Queues",
@@ -197,14 +181,9 @@
     "Stacks/Implementing.md",
     "Stacks",
     "Recursion/Tail Recursion.md",
-    "Recursion/Designing.md",
-    "Recursion/Fractal.md",
-    "Recursion/Activation Record.md",
-    "Recursion/Introduction.md",
     "Recursion",
     "log_chart.png",
     "Screenshot_2023-09-28-14-27-31_1366x768.png",
-    "Algorithm Analysis/Most important functions.md",
     "Algorithm Analysis",
     "Equivalency Testing",
     "Trees/Tries",
