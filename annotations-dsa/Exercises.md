@@ -1,7 +1,7 @@
 Page 73 all from 1.13
 Page 117 all from 2.13
 Page 163 all from 3.11
-Page 200 all from 4.9
+Page 200 all from 4.10
 Page 239 all from 5.8
 Page 270 all from 6.5
 Page 318 all from 7.1
@@ -240,6 +240,12 @@ Ordered from lower growth rate to greater
 8. n³
 9. 2^n
 
+
+#### 4.9
+
+Running time is O(n), because it iters over all n.
+Lets say the assignment is O(1), sum is O(1), array acces is O(1) and a loop is O(n);
+We have approximately: 4 + 3n. So its O(n).
 #### 5.1
 
 ```
