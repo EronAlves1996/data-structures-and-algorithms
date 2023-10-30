@@ -24,6 +24,10 @@ public class CreditCard {
     this(customer, bank, account, limit, 0.0);
   }
 
+  public void updateLimit(int amount) {
+    this.limit += amount;
+  }
+
   public String getCustomer() {
     return customer;
   }
