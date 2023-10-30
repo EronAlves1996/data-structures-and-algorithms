@@ -55,6 +55,7 @@ public class CreditCard {
   }
 
   public void makePayment(double amount) {
+    if (amount < 0) return;
     balance -= amount;
   }
 }
