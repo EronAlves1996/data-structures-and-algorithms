@@ -2,7 +2,7 @@ Page 73 all from 1.13
 Page 117 all from 2.13
 Page 163 all from 3.11
 Page 200 all from 4.10
-Page 239 all from 5.8
+Page 239 all from 5.9
 Page 270 all from 6.5
 Page 318 all from 7.1
 page 326
@@ -339,6 +339,21 @@ function harmonicNumber(int n)
 	return 1 / n + harmonicNumber(n - 1);
 ```
 
+
+#### 5.8
+
+```
+funcion convertStringToIntRecursively(String num){
+  chars = num.toCharArray()
+  convertCharArrayToInt(chars, chars.length - 1, 1);
+}
+
+function convertCharArrayToInt(CharArray ca, int position, int multiplier){
+	value = Integer.parseInt(ca[position]) * multiplier;
+	if (position == 0) return value;
+	return value + convertCharArrayToInt(ca, position - 1, multiplier * 10);
+}
+```
 
 #### 6.1
 
