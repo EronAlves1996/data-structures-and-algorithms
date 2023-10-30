@@ -4,7 +4,8 @@ Page 163 all from 3.10
 Page 200 all from 4.9
 Page 239 all from 5.8
 Page 270 all from 6.5
-page 311
+Page 318 all from 7.1
+page 326
 
 ### Answers not in code
 
