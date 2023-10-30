@@ -2,7 +2,7 @@ Page 73 all from 1.12
 Page 116 all from 2.12
 Page 163 all from 3.10
 Page 200 all from 4.9
-Page 239 all from 5.7
+Page 239 all from 5.8
 Page 270 all from 6.4
 page 311
 
@@ -318,6 +318,15 @@ PuzzleSolve(3, {}, {a,b,c,d})
 		PuzzleSolve(1, {d, b}, {a, c})
 		PuzzleSolve(1, {d, c}, {a, b})
 ```
+
+#### 5.7
+
+```
+function harmonicNumber(int n)
+	if(n == 1) return 1;
+	return 1 / n + harmonicNumber(n - 1);
+```
+
 
 #### 6.1
 
