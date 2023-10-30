@@ -33,6 +33,23 @@ public class CircularlyLinkedList<E> {
     return size;
   }
 
+  public int sizeWithoutVar() {
+    int size = 0;
+    final var endTail = tail;
+
+    if (tail == null) return size;
+
+    var cursor = tail.getNext();
+    size++;
+
+    while (!(cursor == endTail)) {
+      size++;
+      cursor = cursor.getNext();
+    }
+
+    return size;
+  }
+
   public boolean isEmpty() {
     return size == 0;
   }
