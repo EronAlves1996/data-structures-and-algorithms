@@ -37,6 +37,18 @@ public class SinglyLinkedList<E> {
     return size;
   }
 
+  public int sizeWithoutVar() {
+    int size = 0;
+    var actual = head;
+
+    while (actual != null) {
+      actual = actual.getNext();
+      size++;
+    }
+
+    return size;
+  }
+
   public boolean isEmpty() {
     return size == 0;
   }
