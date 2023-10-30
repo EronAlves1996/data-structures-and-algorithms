@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "95c2ee405ba16da4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Exercise 2-12.excalidraw.md"
+              }
+            }
+          },
+          {
             "id": "d7daade87317f426",
             "type": "leaf",
             "state": {
@@ -79,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c723985560a26507",
@@ -153,14 +164,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "660faebac63b7de2",
   "lastOpenFiles": [
+    "Excalidraw/Exercise 2-12.excalidraw.md",
+    "Exercises.md",
+    "Excalidraw",
     "List/Locality of Reference.md",
     "List/Access Frequency List.md",
-    "Exercises.md",
     "Iterator/Lazy Iterator.md",
     "Iterator/Snapshot Iterator.md",
     "Iterator/Introduction.md",
@@ -191,12 +205,10 @@
     "log_chart.png",
     "Screenshot_2023-09-28-14-27-31_1366x768.png",
     "Algorithm Analysis/Most important functions.md",
-    "Algorithm Analysis/Experiments.md",
     "Algorithm Analysis",
     "Equivalency Testing",
     "Trees/Tries",
     "Trees/Binary Heaps",
-    "Trees/Traversing a Binary Tree",
     "Trees/Types/perfect-binary-tree.png"
   ]
 }

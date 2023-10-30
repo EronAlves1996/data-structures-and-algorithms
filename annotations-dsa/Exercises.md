@@ -1,5 +1,5 @@
 Page 73 all from 1.13
-Page 116 all from 2.12
+Page 117 all from 2.13
 Page 163 all from 3.10
 Page 200 all from 4.9
 Page 239 all from 5.8
@@ -83,6 +83,11 @@ Read it.
 Box it.
 Read it.
 ```
+
+#### 2.12
+
+[[Exercise 2-12.excalidraw]]
+
 #### 3.3
 
 First of all, we have to make sure how much gliphs the target alphabet have. After that, we could adapt the array and the codes with the gliphs, calculating  how to reach the base number to swap the chars for numbers and adapt the exercise.
