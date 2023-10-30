@@ -1,5 +1,5 @@
 Page 73 all from 1.12
-Page 116 all from 2.11
+Page 116 all from 2.12
 Page 163 all from 3.9
 Page 200 all from 4.8
 Page 239 all from 5.7
@@ -71,6 +71,17 @@ A potential disadvantage is really have a really big vtable to look for function
 #### 2.10
 
 A potential disadvantage maybe is low reuse of code. Much duplication of code.
+
+#### 2.11
+
+```
+Read it.
+Ship it.
+Buy it.
+Read it.
+Box it.
+Read it.
+```
 #### 3.3
 
 First of all, we have to make sure how much gliphs the target alphabet have. After that, we could adapt the array and the codes with the gliphs, calculating  how to reach the base number to swap the chars for numbers and adapt the exercise.
