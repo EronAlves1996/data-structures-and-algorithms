@@ -5,6 +5,12 @@ package com.eronalves.stacks;
  */
 public interface Stack<E> {
 
+  static <E> void recursiveEmpty(Stack<E> stack) {
+    if (stack.isEmpty()) return;
+    stack.pop();
+    recursiveEmpty(stack);
+  }
+
   int size();
 
   boolean isEmpty();
