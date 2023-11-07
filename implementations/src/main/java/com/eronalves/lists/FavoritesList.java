@@ -82,6 +82,6 @@ public class FavoritesList<E> {
     Iterator<Item<E>> iter = list.iterator();
     for (int j = 0; j < k; j++)
       result.addLast(iter.next().getValue());
-    return result;
+    return null;
   }
 }
