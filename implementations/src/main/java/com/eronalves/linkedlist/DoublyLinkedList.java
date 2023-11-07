@@ -49,6 +49,20 @@ public class DoublyLinkedList<E> {
     return size;
   }
 
+  public int sizeWithNoInstance() {
+    if (header.next.element == null) return 0;
+
+    var current = header.next;
+    int size = 1;
+
+    while (current.next.element != null) {
+      size++;
+      current = current.next;
+    }
+
+    return size;
+  }
+
   public boolean isEmpty() {
     return size == 0;
   }
