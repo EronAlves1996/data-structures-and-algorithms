@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "79ea3f22e3d542fb",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Exercise 2-12.excalidraw.md"
+              }
+            }
           }
         ]
       }
@@ -69,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5124969482422
+    "width": 253.5124969482422,
+    "collapsed": true
   },
   "right": {
     "id": "c723985560a26507",
@@ -149,14 +160,14 @@
   },
   "active": "660faebac63b7de2",
   "lastOpenFiles": [
+    "Excalidraw/Exercise 2-12.excalidraw.md",
+    "Exercises.md",
     "Trees/Types/Binary Tree.md",
     "Trees/Introduction.md",
     "Trees/ADT.md",
     "Trees/Edges and Paths.md",
-    "Exercises.md",
     "Excalidraw/Exercise 7-1.excalidraw.md",
     "Screenshot_2023-10-18-08-49-23_1280x720.png",
-    "Excalidraw/Exercise 2-12.excalidraw.md",
     "Excalidraw",
     "List/Locality of Reference.md",
     "List/Access Frequency List.md",

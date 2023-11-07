@@ -1,5 +1,5 @@
 Page 73 all from 1.14
-Page 117 all from 2.13
+Page 117 all from 2.14
 Page 163 all from 3.11
 Page 200 all from 4.10
 Page 239 all from 5.9
@@ -91,6 +91,14 @@ Read it.
 #### 2.12
 
 [[Exercise 2-12.excalidraw]]
+
+#### 2.13
+
+It cannot be casted, because a Race is another different subclass of Horse, different from Equestrian. When try to cast, it gonna throws a ClassCastException.
+
+https://www.baeldung.com/java-classcastexception
+
+A subclass can be casted to a superclass, but cannot be casted to another subclass, or cannot be casted to a sibling class.
 
 #### 3.3
 
