@@ -1,7 +1,7 @@
 Page 73 all from 1.14
 Page 117 all from 2.14
 Page 163 all from 3.12
-Page 200 all from 4.10
+Page 200 all from 4.11
 Page 239 all from 5.9
 Page 270 all from 6.6
 Page 318 all from 7.2
@@ -258,6 +258,13 @@ Ordered from lower growth rate to greater
 Running time is O(n), because it iters over all n.
 Lets say the assignment is O(1), sum is O(1), array acces is O(1) and a loop is O(n);
 We have approximately: 4 + 3n. So its O(n).
+
+#### 4.10
+
+Running time is still O(n), even if advances 2 for every iteration.
+Thinking about it, we have n elements, and for the run, the time we have is O(n/2),  which in fact is O(n * 1/2), which is O(n).
+
+
 #### 5.1
 
 ```
