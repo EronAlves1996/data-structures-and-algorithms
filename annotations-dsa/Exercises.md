@@ -3,7 +3,7 @@ Page 117 all from 2.14
 Page 163 all from 3.12
 Page 200 all from 4.11
 Page 239 all from 5.10
-Page 270 all from 6.6
+Page 270 all from 6.7
 Page 318 all from 7.2
 page 337
 
@@ -414,6 +414,10 @@ pop() -> 7
 push(4) -> void
 pop() -> 4
 pop() -> 9
+
+#### 6.6
+
+- For each `([{` theere should be an equals `}])`, matching the same order of appearance in a math expression.
 
 #### 7.1
 
