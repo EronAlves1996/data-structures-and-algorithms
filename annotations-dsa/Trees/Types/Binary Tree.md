@@ -3,3 +3,13 @@
 * Is ordered
 * Proper/full Binary Tree: each node has either zero or two children. If some node has 1 children, it is improper
 * Decision trees is an example of proper binary tree
+
+### ADT
+
+* left
+* right
+* sibling
+
+### Properties
+
+* For every level, it has 2^L nodes.

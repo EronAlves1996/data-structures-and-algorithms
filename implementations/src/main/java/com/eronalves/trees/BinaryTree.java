@@ -1,46 +1,16 @@
 package com.eronalves.trees;
 
-public class BinaryTree<T> {
-  public BinaryTreeNode<T> root;
+import com.eronalves.lists.Position;
 
-  public void inOrderTraversal(){
-    inOrderTraversalHelper(root);
-  }
+/**
+ * BinaryTree
+ */
+public interface BinaryTree<E> extends Tree<E> {
 
-  public void preOrderTraversal(){
-    preOrderTraversalHelper(root);
-  }
+  Position<E> left(Position<E> p) throws IllegalArgumentException;
 
-  private void preOrderTraversalHelper(BinaryTreeNode<T> node){
-    if(node != null){
-      visit(node);
-      preOrderTraversalHelper(node.left);
-      preOrderTraversalHelper(node.right);
-    }
-  }
+  Position<E> right(Position<E> p) throws IllegalArgumentException;
 
-  private void inOrderTraversalHelper(BinaryTreeNode<T> node){
-    if(node != null){
-      inOrderTraversalHelper(node.left);
-      visit(node);
-      inOrderTraversalHelper(node.right);
-    }
-  }
+  Position<E> sibling(Position<E> p) throws IllegalArgumentException;
 
-
-  private void visit(BinaryTreeNode<T> node){
-    System.out.println(node.value);
-  }
-
-  public void postOrderTraversal () {
-    postOrderTraversalHelper(root);
-  }
-
-  private void postOrderTraversalHelper (BinaryTreeNode<T> node) {
-    if(node != null){
-      postOrderTraversalHelper(node.left);
-      postOrderTraversalHelper(node.right);
-      visit(node);
-    }
-  }
 }

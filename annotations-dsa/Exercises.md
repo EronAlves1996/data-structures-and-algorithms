@@ -1,11 +1,11 @@
-Page 73 all from 1.14
+Page 74 all from 1.15
 Page 117 all from 2.14
 Page 163 all from 3.12
 Page 200 all from 4.11
 Page 239 all from 5.10
 Page 270 all from 6.7
 Page 318 all from 7.3
-page 337
+page 349
 
 ### Answers not in code
 
@@ -16,6 +16,17 @@ Java passes values by reference, so if we clone `GameEntry[]` from array A to B,
 #### 1.13
 
 The third credit card.
+
+#### 1.14
+
+```
+function reverseIntArray(int[] array)
+	for(int i = 0; i < array.length / 2; i++)
+		var lastPosition = array.size() - 1 - i
+		var temp = array[i]
+		array[i] = array[lastPosition]
+		array[lastPosition] = temp
+```
 
 #### 2.3
 
