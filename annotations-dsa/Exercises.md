@@ -3,7 +3,7 @@ Page 117 all from 2.15
 Page 163 all from 3.13
 Page 200 all from 4.12
 Page 239 all from 5.11
-Page 270 all from 6.7
+Page 270 all from 6.8
 Page 318 all from 7.3
 page 349
 
@@ -465,6 +465,10 @@ pop() -> 9
 #### 6.6
 
 - For each `([{` theere should be an equals `}])`, matching the same order of appearance in a math expression.
+
+#### 6.7
+
+0 + 32  - (10 * 0) + (15 - 5) = 32 - 10 = 22
 
 #### 7.1
 
