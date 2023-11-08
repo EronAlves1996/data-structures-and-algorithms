@@ -37,6 +37,14 @@ public class SinglyLinkedList<E> {
     return size;
   }
 
+  public void rotate() {
+    var tempNode = head;
+    head = head.next;
+    tempNode.next = null;
+    tail.next = tempNode;
+    tail = tempNode;
+  }
+
   public int sizeWithoutVar() {
     int size = 0;
     var actual = head;
