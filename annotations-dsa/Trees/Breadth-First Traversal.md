@@ -1,0 +1,3 @@
+- Visits all the imediate nodes before we go deeper
+- Game tree represents the possible choices of moves that might be made
+- Uses a queue

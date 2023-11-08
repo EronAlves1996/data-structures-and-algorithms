@@ -13,7 +13,79 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exercises.md",
+                "file": "Trees/Traversal Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c2bb3b48ff530e85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trees/In-order traversal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64047269272adbc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trees/Types/Binary Search Tree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7d532c0c28efc76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trees/Types/Binary Search Tree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5dd29da1589539c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trees/Breadth-First Traversal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8879bc65cedf779",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trees/Post-order traversal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef25be980071964e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trees/Pre-order traversal.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,7 +101,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exercises.md",
+                "file": "Trees/Types/Binary Search Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exercises.md",
+                "file": "Trees/Types/Binary Search Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exercises.md"
+                "file": "Trees/Types/Binary Search Tree.md"
               }
             }
           }
@@ -158,8 +231,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "660faebac63b7de2",
+  "active": "64047269272adbc8",
   "lastOpenFiles": [
+    "Trees/In-order traversal.md",
+    "Trees/Types/Binary Search Tree.md",
+    "Trees/Traversal Algorithms.md",
+    "Trees/Breadth-First Traversal.md",
+    "Trees/Post-order traversal.md",
+    "Trees/Pre-order traversal.md",
     "Trees/Types/Binary Tree.md",
     "Exercises.md",
     "Excalidraw/Exercise 2-12.excalidraw.md",
@@ -184,14 +263,8 @@
     "Queues/Josephus Problem.md",
     "Queues/ADT.md",
     "Queues/Implementing.md",
-    "Sorting/Introduction.md",
-    "Queues/Introduction.md",
-    "Stacks/Introduction.md",
     "Queues",
-    "Stacks/Abstract data type.md",
-    "Stacks/Implementing.md",
     "Stacks",
-    "Recursion/Tail Recursion.md",
     "Recursion",
     "log_chart.png",
     "Screenshot_2023-09-28-14-27-31_1366x768.png",
