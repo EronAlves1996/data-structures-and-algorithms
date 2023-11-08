@@ -1,7 +1,7 @@
 Page 74 all from 1.15
 Page 117 all from 2.15
 Page 163 all from 3.13
-Page 200 all from 4.11
+Page 200 all from 4.12
 Page 239 all from 5.10
 Page 270 all from 6.7
 Page 318 all from 7.3
@@ -293,6 +293,21 @@ Running time is still O(n), even if advances 2 for every iteration.
 Thinking about it, we have n elements, and for the run, the time we have is O(n/2),  which in fact is O(n * 1/2), which is O(n).
 
 
+#### 4.11
+
+Running time on this case O(n²), because it haves an outer loop and an inner loop, perharps the inner loop grows by the reason of outer loop, that way
+
+loop 1
+	loop
+loop 2
+	loop 
+	loop
+loop 3
+	loop
+	loop 
+	loop
+
+It means that maybe we have an O(n!) reason
 #### 5.1
 
 ```
