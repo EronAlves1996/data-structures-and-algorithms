@@ -1,5 +1,5 @@
 Page 74 all from 1.15
-Page 117 all from 2.14
+Page 117 all from 2.15
 Page 163 all from 3.12
 Page 200 all from 4.11
 Page 239 all from 5.10
@@ -110,6 +110,23 @@ It cannot be casted, because a Race is another different subclass of Horse, diff
 https://www.baeldung.com/java-classcastexception
 
 A subclass can be casted to a superclass, but cannot be casted to another subclass, or cannot be casted to a sibling class.
+
+#### 2.14
+
+```java
+<T> void processArray(T[] array){
+  var i = 0;
+  while(true){
+    try{
+      var arrElement = array[i];
+    } catch(Exception ex){
+	  System.out.println("Don't try buffer overflow attacks in Java!");
+	  break;
+    }
+    i++;
+  }
+}
+```
 
 #### 3.3
 
