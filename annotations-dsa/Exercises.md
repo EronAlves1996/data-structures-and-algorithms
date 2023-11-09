@@ -5,7 +5,8 @@ Page 200 all from 4.13
 Page 239 all from 5.12
 Page 270 all from 6.9
 Page 318 all from 7.5
-page 361
+Page 368 all from 8.1
+page 378
 
 ### Answers not in code
 

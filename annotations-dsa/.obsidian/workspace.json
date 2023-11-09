@@ -152,8 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5124969482422,
-    "collapsed": true
+    "width": 253.5124969482422
   },
   "right": {
     "id": "c723985560a26507",
@@ -233,15 +232,16 @@
   },
   "active": "64047269272adbc8",
   "lastOpenFiles": [
+    "Trees/Pre-order traversal.md",
+    "Trees/Euler Tour traversal.md",
+    "Trees/In-order traversal.md",
+    "Trees/Post-order traversal.md",
+    "Exercises.md",
     "2023-11-08.md",
     "Trees/Types/Binary Search Tree.md",
-    "Trees/In-order traversal.md",
     "Trees/Traversal Algorithms.md",
     "Trees/Breadth-First Traversal.md",
-    "Trees/Post-order traversal.md",
-    "Trees/Pre-order traversal.md",
     "Trees/Types/Binary Tree.md",
-    "Exercises.md",
     "Excalidraw/Exercise 2-12.excalidraw.md",
     "Trees/Introduction.md",
     "Trees/ADT.md",
@@ -262,7 +262,6 @@
     "Queues/On methods that not throws.md",
     "Queues/Double Ended Queues.md",
     "Queues/Josephus Problem.md",
-    "Queues/ADT.md",
     "Queues",
     "Stacks",
     "Recursion",
