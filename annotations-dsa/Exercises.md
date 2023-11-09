@@ -3,8 +3,8 @@ Page 117 all from 2.16
 Page 164 all from 3.14
 Page 200 all from 4.13
 Page 239 all from 5.12
-Page 270 all from 6.8
-Page 318 all from 7.4
+Page 270 all from 6.9
+Page 318 all from 7.5
 page 361
 
 ### Answers not in code
@@ -526,4 +526,11 @@ The value of f would be 10, because only successfully dequeues operations increm
 | add(3, 7) | void         | (2, 6, 5, 7, 3, 1, 4)    | 
 | add(0, 8) | void         | (8, 2, 6, 5, 7, 3, 1, 4) |
  
+#### 7.4
 
+* size: size only returns the internal variable size, so it's really O(1)
+* isEmpty: it only checks if size is equal to zero
+* get: it only gets an element in the specified position on array
+* set: it accesses the element int he specficied position on array and replaces it
+* add: for add, it depends on position. If it is made on position 0, it would be the worst case, because all the subsequent elements should be moved in front. Add to it the fact that the array is not in the size, so, all the elements of the array should be copied to the new array, so iterating for all the elements
+* remove: as for add, remove should move all elements to the left. If I remove to zero, this gonna be an empty space, so I need to iterate to all subsequent elements to move them one position left
