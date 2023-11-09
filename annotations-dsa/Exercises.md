@@ -1,7 +1,7 @@
 Page 74 all from 1.16
 Page 117 all from 2.16
 Page 164 all from 3.14
-Page 200 all from 4.12
+Page 200 all from 4.13
 Page 239 all from 5.11
 Page 270 all from 6.8
 Page 318 all from 7.4
@@ -334,6 +334,11 @@ loop 3
 	loop
 
 It means that maybe we have an O(n!) reason
+
+#### 4.12
+
+Running time is O(n)
+
 #### 5.1
 
 ```
