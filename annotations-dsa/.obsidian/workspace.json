@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trees/Types/Binary Search Tree.md",
+                "file": "Exercises.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trees/Types/Binary Search Tree.md",
+                "file": "Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trees/Types/Binary Search Tree.md",
+                "file": "Exercises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trees/Types/Binary Search Tree.md"
+                "file": "Exercises.md"
               }
             }
           }
@@ -233,8 +233,9 @@
   },
   "active": "64047269272adbc8",
   "lastOpenFiles": [
-    "Trees/In-order traversal.md",
+    "2023-11-08.md",
     "Trees/Types/Binary Search Tree.md",
+    "Trees/In-order traversal.md",
     "Trees/Traversal Algorithms.md",
     "Trees/Breadth-First Traversal.md",
     "Trees/Post-order traversal.md",
@@ -262,7 +263,6 @@
     "Queues/Double Ended Queues.md",
     "Queues/Josephus Problem.md",
     "Queues/ADT.md",
-    "Queues/Implementing.md",
     "Queues",
     "Stacks",
     "Recursion",

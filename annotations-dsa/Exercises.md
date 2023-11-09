@@ -5,7 +5,7 @@ Page 200 all from 4.12
 Page 239 all from 5.11
 Page 270 all from 6.8
 Page 318 all from 7.4
-page 349
+page 361
 
 ### Answers not in code
 
@@ -28,6 +28,23 @@ function reverseIntArray(int[] array)
 		array[lastPosition] = temp
 ```
 
+
+#### 1.15
+
+```java
+void findSmallestAndLargest(int[] array){
+  int smallest = Integer.MAX_VALUE;
+  int largest = Integer.MIN_VALUE;
+
+  for(int item: array){
+    if(item < smallest) smallest = item;
+    if(item > largest) largest = item
+  }
+
+  System.out.println("The smallest number is " + smallest);
+  System.out.println("The largest number is " + largest);
+}
+```
 #### 2.3
 
 ```java
