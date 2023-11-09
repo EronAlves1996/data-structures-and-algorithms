@@ -55,7 +55,8 @@ public class CreditCard {
   }
 
   public void makePayment(double amount) {
-    if (amount < 0) return;
+    if (amount < 0)
+      throw new IllegalArgumentException("Negative payment not allowed!");
     balance -= amount;
   }
 }
