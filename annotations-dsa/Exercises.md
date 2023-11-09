@@ -1,6 +1,6 @@
 Page 74 all from 1.16
 Page 117 all from 2.16
-Page 163 all from 3.13
+Page 164 all from 3.14
 Page 200 all from 4.12
 Page 239 all from 5.11
 Page 270 all from 6.8
@@ -219,6 +219,15 @@ We can do it by the following method:
 
 We have two pointers, one that start at first node and one that starts at last node, an keep traversing each of them and adding every visited node in a visited set.
 The end cursors traverses first. When a cursor finds a visited node, then the middle is finded. The end cursor need traverses first to find the right spot for even numbers of nodes on linked list
+
+#### 3.13
+
+1. One-dimensional Array
+	1. They are the same
+2. Two-dimensional array
+	1. For shallow equals, it compare if the two arrays are composed  by the same reference
+	2. For deep equals,  it will compare the items of each two dimensional array, and if they have the same size
+
 #### 4.1
 
 ![[log_chart.png]]
