@@ -510,6 +510,9 @@ pop() -> 9
 
 0 + 32  - (10 * 0) + (15 - 5) = 32 - 10 = 22
 
+#### 6.8 
+
+The value of f would be 10, because only successfully dequeues operations increment f, regardless of enqueues.
 #### 7.1
 
 | **Method**    | **Return value** | **List contents**            |
