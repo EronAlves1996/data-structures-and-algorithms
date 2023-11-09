@@ -2,7 +2,7 @@ Page 74 all from 1.16
 Page 117 all from 2.16
 Page 164 all from 3.14
 Page 200 all from 4.13
-Page 239 all from 5.11
+Page 239 all from 5.12
 Page 270 all from 6.8
 Page 318 all from 7.4
 page 361
@@ -451,6 +451,15 @@ function convertCharArrayToInt(CharArray ca, int position, int multiplier){
 #### 5.10
 
 We can walk through all the elements passing the position which it should access to the function. That way we have `sumWith(int[][] matrix, int x, int y)`, and we do the walk with this function, summing the actual element with the accessed element.
+
+#### 5.11
+
+```java
+int computeLog(int n){
+	if (n == 1) return 0;
+	return 1 + computLog(n / 2);
+}
+```
 
 #### 6.1
 
