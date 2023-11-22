@@ -5,7 +5,7 @@ Page 200 all from 4.14
 Page 239 all from 5.13
 Page 270 all from 6.10
 Page 318 all from 7.6
-Page 368 all from 8.1
+Page 368 all from 8.2
 page 378
 
 ### Answers not in code
@@ -595,3 +595,31 @@ The value of f would be 10, because only successfully dequeues operations increm
 * set: it accesses the element int he specficied position on array and replaces it
 * add: for add, it depends on position. If it is made on position 0, it would be the worst case, because all the subsequent elements should be moved in front. Add to it the fact that the array is not in the size, so, all the elements of the array should be copied to the new array, so iterating for all the elements
 * remove: as for add, remove should move all elements to the left. If I remove to zero, this gonna be an empty space, so I need to iterate to all subsequent elements to move them one position left
+
+
+### Chapter 8
+
+#### 8.1
+
+a - `/user/rt/courses`
+b - 
+	- `cs016/`
+	- `cs252`
+	- `/user/rt/courses`
+	- `homeworks`
+	- `programs`
+	- `projects`
+	- `papers`
+	- `demos`
+c - It has 3 descendantes
+d - It has only one ancestor https://stackoverflow.com/a/10095171
+e - Nodes `grades` and `programs`
+f -
+	- `projects`
+	- `papers`
+	- `demos`
+	- `buylow`
+	- `sellhigh`
+	- `market
+g - It has depth 3
+h - It has height 4
