@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "660faebac63b7de2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trees/Traversal Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2bb3b48ff530e85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trees/In-order traversal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "64047269272adbc8",
             "type": "leaf",
             "state": {
@@ -44,65 +20,16 @@
             }
           },
           {
-            "id": "f7d532c0c28efc76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trees/Types/Binary Search Tree.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5dd29da1589539c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trees/Breadth-First Traversal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8879bc65cedf779",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trees/Post-order traversal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef25be980071964e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trees/Pre-order traversal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79ea3f22e3d542fb",
+            "id": "d195c0c13b7735bd",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Exercise 2-12.excalidraw.md"
+                "file": "Excalidraw/Drawing 2023-11-22 00.47.36.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -233,13 +160,14 @@
   },
   "active": "64047269272adbc8",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-11-22 00.47.36.excalidraw.md",
+    "Exercises.md",
+    "Trees/Types/Binary Search Tree.md",
     "Trees/Pre-order traversal.md",
     "Trees/Euler Tour traversal.md",
     "Trees/In-order traversal.md",
     "Trees/Post-order traversal.md",
-    "Exercises.md",
     "2023-11-08.md",
-    "Trees/Types/Binary Search Tree.md",
     "Trees/Traversal Algorithms.md",
     "Trees/Breadth-First Traversal.md",
     "Trees/Types/Binary Tree.md",
@@ -262,7 +190,6 @@
     "List",
     "Queues/On methods that not throws.md",
     "Queues/Double Ended Queues.md",
-    "Queues/Josephus Problem.md",
     "Queues",
     "Stacks",
     "Recursion",
