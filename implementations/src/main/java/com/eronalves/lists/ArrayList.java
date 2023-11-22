@@ -94,6 +94,17 @@ public class ArrayList<E> implements List<E>, Iterable<E> {
     return temp;
   }
 
+  public void trimToSize() {
+    if (data.length == size) return;
+    E[] tempData = (E[]) new Object[size];
+
+    for (int i = 0; i < tempData.length; i++) {
+      tempData[i] = data[i];
+    }
+
+    data = tempData;
+  }
+
   protected void checkIndex(int i, int n) throws IndexOutOfBoundsException {
     if (i < 0 || i >= n)
       throw new IndexOutOfBoundsException("Illegal index: " + i);
