@@ -1,6 +1,6 @@
 Page 74 all from 1.17
 Page 117 all from 2.17
-Page 164 all from 3.14
+Page 164 all from 3.15
 Page 200 all from 4.13
 Page 239 all from 5.12
 Page 270 all from 6.9
@@ -233,6 +233,12 @@ The end cursors traverses first. When a cursor finds a visited node, then the mi
 2. Two-dimensional array
 	1. For shallow equals, it compare if the two arrays are composed  by the same reference
 	2. For deep equals,  it will compare the items of each two dimensional array, and if they have the same size
+
+#### 3.14
+
+1. `var backup = Array.clone(original)`
+2. `var backup = Arrays.stream(original).toArray()`
+3. `var backup = new int[]{...original}` - maybe dont works
 
 #### 4.1
 
