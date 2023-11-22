@@ -1,7 +1,7 @@
 Page 74 all from 1.17
 Page 117 all from 2.17
 Page 164 all from 3.15
-Page 200 all from 4.13
+Page 200 all from 4.14
 Page 239 all from 5.12
 Page 270 all from 6.9
 Page 318 all from 7.5
@@ -9,6 +9,8 @@ Page 368 all from 8.1
 page 378
 
 ### Answers not in code
+
+### Chapter 1
 
 #### 1.2
 
@@ -46,6 +48,9 @@ void findSmallestAndLargest(int[] array){
   System.out.println("The largest number is " + largest);
 }
 ```
+
+### Chapter 2
+
 #### 2.3
 
 ```java
@@ -151,6 +156,9 @@ A subclass can be casted to a superclass, but cannot be casted to another subcla
 
 [[Drawing 2023-11-22 00.47.36.excalidraw]]
 
+
+### Chapter 3
+
 #### 3.3
 
 First of all, we have to make sure how much gliphs the target alphabet have. After that, we could adapt the array and the codes with the gliphs, calculating  how to reach the base number to swap the chars for numbers and adapt the exercise.
@@ -240,6 +248,8 @@ The end cursors traverses first. When a cursor finds a visited node, then the mi
 2. `var backup = Arrays.stream(original).toArray()`
 3. `var backup = new int[]{...original}` - maybe dont works
 
+
+### Chapter 4
 #### 4.1
 
 ![[log_chart.png]]
@@ -350,6 +360,13 @@ It means that maybe we have an O(n!) reason
 #### 4.12
 
 Running time is O(n)
+
+
+#### 4.13
+
+The first loop implies some sort of O(n). The second loop suggests a O(n²). The third loop implies some sort of O(n² + j)
+
+### Chapter 5
 
 #### 5.1
 
