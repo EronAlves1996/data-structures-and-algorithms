@@ -1,7 +1,7 @@
 Page 74 all from 1.18
 Page 117 all from 2.18
 Page 164 all from 3.16
-Page 200 all from 4.14
+Page 200 all from 4.15
 Page 239 all from 5.13
 Page 270 all from 6.10
 Page 318 all from 7.6
@@ -365,6 +365,11 @@ Running time is O(n)
 #### 4.13
 
 The first loop implies some sort of O(n). The second loop suggests a O(n²). The third loop implies some sort of O(n² + j)
+
+
+#### 4.14
+
+If d(n) is O(f(n)), then f(n) = d(n). That way, f(n) = ad(n), where a is constant, d(n) always represents the upper bound, regardless of a.
 
 ### Chapter 5
 
