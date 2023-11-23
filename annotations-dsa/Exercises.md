@@ -2,7 +2,7 @@ Page 74 all from 1.18
 Page 117 all from 2.18
 Page 164 all from 3.16
 Page 200 all from 4.15
-Page 239 all from 5.13
+Page 239 all from 5.14
 Page 270 all from 6.10
 Page 318 all from 7.6
 Page 368 all from 8.2
@@ -500,6 +500,16 @@ int computeLog(int n){
 
 https://en.wikipedia.org/wiki/Element_distinctness_problem
 According to wikipedia, we can use some form of Set to determine if the element already exists before, going for an O(n) complexity. Converting between recursive and iterative algorithms should be fine, wether if in some case it finds a repeated number, it returns false immediatelly. Otherwise, it continues to the end of the list and finally returns a true.
+
+
+#### 5.13
+
+```java
+public static int product(int m, int n){
+  if (n == 1) return m;
+  return m + product(m, n - 1);
+}
+```
 
 ### Chpater 6
 
