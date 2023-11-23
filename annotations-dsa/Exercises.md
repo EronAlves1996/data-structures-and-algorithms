@@ -5,7 +5,7 @@ Page 200 all from 4.15
 Page 239 all from 5.14
 Page 270 all from 6.11
 Page 318 all from 7.7
-Page 368 all from 8.2
+Page 368 all from 8.3
 page 388 to 427
 
 ### Answers not in code
@@ -675,3 +675,12 @@ f -
 	- `market
 g - It has depth 3
 h - It has height 4
+
+
+#### 8.2
+
+```
+A -> B -> C -> D -> E -> F
+```
+
+Every linear tree achieves worst case running time for depth, specially if it's called on the lastest node.
