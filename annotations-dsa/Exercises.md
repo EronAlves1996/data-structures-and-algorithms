@@ -1,4 +1,4 @@
-Page 74 all from 1.17
+Page 74 all from 1.18
 Page 117 all from 2.17
 Page 164 all from 3.15
 Page 200 all from 4.14
@@ -6,7 +6,7 @@ Page 239 all from 5.13
 Page 270 all from 6.10
 Page 318 all from 7.6
 Page 368 all from 8.2
-page 378
+page 388 to 427
 
 ### Answers not in code
 

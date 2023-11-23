@@ -1,0 +1,2 @@
+* The queue is usefull, but another business might take advantage over priorities to order the position of items over a queue
+* The elements of a priority queue are prioritized and allows arbitrary element insertion and removal of the element that has first priority

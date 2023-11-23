@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "a3f71253f70fddbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exercises.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d195c0c13b7735bd",
             "type": "leaf",
             "state": {
@@ -29,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5124969482422,
-    "collapsed": true
+    "width": 253.5124969482422
   },
   "right": {
     "id": "c723985560a26507",
@@ -158,10 +170,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "64047269272adbc8",
+  "active": "a3f71253f70fddbb",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-11-22 00.47.36.excalidraw.md",
+    "Priority Queue/Comparability.md",
+    "Priority Queue/Entry.md",
+    "Priority Queue/ADT.md",
+    "Priority Queue/Priorities.md",
+    "Priority Queue",
     "Exercises.md",
+    "Excalidraw/Drawing 2023-11-22 00.47.36.excalidraw.md",
     "Trees/Types/Binary Search Tree.md",
     "Trees/Pre-order traversal.md",
     "Trees/Euler Tour traversal.md",
@@ -185,11 +202,7 @@
     "Iterator/Introduction.md",
     "Iterator",
     "List/Positional List.md",
-    "List/Implementation.md",
-    "List/ADT.md",
     "List",
-    "Queues/On methods that not throws.md",
-    "Queues/Double Ended Queues.md",
     "Queues",
     "Stacks",
     "Recursion",
@@ -198,7 +211,6 @@
     "Algorithm Analysis",
     "Equivalency Testing",
     "Trees/Tries",
-    "Trees/Binary Heaps",
     "Trees/Types/perfect-binary-tree.png"
   ]
 }
