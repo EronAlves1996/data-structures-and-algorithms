@@ -96,4 +96,35 @@ public class CircularlyLinkedList<E> {
     size--;
     return head.getElement();
   }
+
+  @Override
+  public int hashCode() {
+    return super.hashCode();
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+    if (obj instanceof CircularlyLinkedList) {
+      var casted = this.getClass().cast(obj);
+      if (casted.first().getClass().equals(this.first().getClass())) {
+        // checked the generic type above
+        @SuppressWarnings("unchecked")
+        var genericCasted = (CircularlyLinkedList<E>) casted;
+        if (genericCasted.size() == this.size()) {
+
+          var cursor = tail;
+          var otherCursor = genericCasted.tail;
+
+          for (int i = 0; i < size; i++) {
+            if (!cursor.getElement().equals(otherCursor.getElement()))
+              return false;
+          }
+
+          return true;
+        }
+      }
+    }
+
+    return false;
+  }
 }
