@@ -4,7 +4,7 @@ Page 164 all from 3.16
 Page 200 all from 4.15
 Page 239 all from 5.14
 Page 270 all from 6.11
-Page 318 all from 7.6
+Page 318 all from 7.7
 Page 368 all from 8.2
 page 388 to 427
 
@@ -611,6 +611,43 @@ The value of f would be 10, because only successfully dequeues operations increm
 * add: for add, it depends on position. If it is made on position 0, it would be the worst case, because all the subsequent elements should be moved in front. Add to it the fact that the array is not in the size, so, all the elements of the array should be copied to the new array, so iterating for all the elements
 * remove: as for add, remove should move all elements to the left. If I remove to zero, this gonna be an empty space, so I need to iterate to all subsequent elements to move them one position left
 
+
+
+#### 7.6
+
+* For each push operation we need one cyber dolar
+* Growing an array from size k, to size 2k, requires 3k cyber dolars
+* Getting an array with size one, we gonna push one item to there, it needs one  cyber dolar
+* When we go to push more one item, is needed 3 cyber dolars.
+* Thus, we need to overcharge every item with 3 cyberdollars, that way every item that don't cause overflows need to pay 4 cyberdollars.
+* That way:
+
+A = 1 push 4 cyber dolars
+Another push, we have 3 cyberdolars, and pay for it, grows to size 2, and the new item pay one cyber dolar and we have more 3 cyber dolars. One more push, we need to grow the array by two. But we need 6 cyberdolars, and we have only 3.
+
+If we overcharge every item with more 4 cyberdolar, may be we have the amount required?
+
+A = 1 push 5 cyber dolars, then we have 4 cyber dolar
+A = 1 push causes overflow, to grow to two, we need 3 cyber dolar. Spends 4, and now we have 1. The new push pays more 5 cyberdolars, with the other one, we pay the last cyber dolar
+a = 2 push causes overflow, to grow to 4, we need 6 cyber dolar, but we get only 5!
+
+We need then to overcharge 5 cyberdolars.
+
+A = 1 push 6 cyber dolar, spent 1, then we have 5 cyber doalr
+A = 1, push causes overflow, needs 3 cyber dolar. We have 5, then we have 2 cyber dolar, the new item brings 6 cyber dolar and spent 1. Then we have 7 cyber dolar.
+A = 2, push causes overflow, needs 6 cyber dolar. We have 7, then we have 1 cyber dolar, the new item brings 6 cyber dolar and spent 1. Then we have 6 cyber dolar.
+A = 4, push 6 cyber dolar and spent 1. Then we have 11 cyber dolar.
+A = 4, push causes overflow, needs 12 cyber dolar. We have 11!!!
+
+We need then to overcharge 6 cyberdolars.
+
+A = 1, push 7 cyberdolar, spent 1, then we have 6 cyber dolar
+A = 1, push causes overflow, needs 3 cyber dolar. We have 6, then we have 3 cyber dolar, the new item brings 7 and spent 1. The we have 9 cyber dolar.
+A = 2, push causes overflow, needs 6 cyber dolar. We have 9, then we have 3 cyber dolar. The new item brings 7 and spent 1. Then we have 9 cyber dolar.
+A = 2,  push 7 cyber dolar, spent 1. We have then 15 cyber dolar.
+A = 2, push cuases overflow, needs 12 cyber dolar. We have 15. Then we have 3 cyber doalr. The new item brings 7 and spetn 1. Then we have 9 cyber dolar.
+
+Each operation should be charged to 7 cyberdolar for it work.
 
 ### Chapter 8
 
