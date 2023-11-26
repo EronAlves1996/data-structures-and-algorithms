@@ -9,10 +9,15 @@ public class CreditCard {
   private String bank;
   private String account;
   private int limit;
-  private double balance;
+  protected double balance;
 
-  public CreditCard(String customer, String bank, String account, int limit,
-      double balance) {
+  public CreditCard (
+      String customer,
+      String bank,
+      String account,
+      int limit,
+      double balance
+  ) {
     this.customer = customer;
     this.bank = bank;
     this.account = account;
@@ -20,41 +25,52 @@ public class CreditCard {
     this.balance = balance;
   }
 
-  public CreditCard(String customer, String bank, String account, int limit) {
-    this(customer, bank, account, limit, 0.0);
+  public CreditCard (
+      String customer,
+      String bank,
+      String account,
+      int limit
+  ) {
+    this(
+        customer,
+        bank,
+        account,
+        limit,
+        0.0
+    );
   }
 
-  public void updateLimit(int amount) {
+  public void updateLimit (int amount) {
     this.limit += amount;
   }
 
-  public String getCustomer() {
+  public String getCustomer () {
     return customer;
   }
 
-  public String getBank() {
+  public String getBank () {
     return bank;
   }
 
-  public String getAccount() {
+  public String getAccount () {
     return account;
   }
 
-  public int getLimit() {
+  public int getLimit () {
     return limit;
   }
 
-  public double getBalance() {
+  public double getBalance () {
     return balance;
   }
 
-  public boolean charge(double price) {
+  public boolean charge (double price) {
     if (price + balance > limit) return false;
     balance += price;
     return true;
   }
 
-  public void makePayment(double amount) {
+  public void makePayment (double amount) {
     if (amount < 0)
       throw new IllegalArgumentException("Negative payment not allowed!");
     balance -= amount;
