@@ -30,16 +30,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d195c0c13b7735bd",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-11-22 00.47.36.excalidraw.md"
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -173,16 +163,16 @@
   },
   "active": "a3f71253f70fddbb",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-11-22 00.47.36.excalidraw.md",
+    "Exercises.md",
     "Algorithm Analysis/Most important functions.md",
     "Algorithm Analysis/Experiments.md",
     "Algorithm Analysis/Introduction.md",
-    "Exercises.md",
     "Priority Queue/Comparability.md",
     "Priority Queue/Entry.md",
     "Priority Queue/ADT.md",
     "Priority Queue/Priorities.md",
     "Priority Queue",
-    "Excalidraw/Drawing 2023-11-22 00.47.36.excalidraw.md",
     "Trees/Types/Binary Search Tree.md",
     "Trees/Pre-order traversal.md",
     "Trees/Euler Tour traversal.md",

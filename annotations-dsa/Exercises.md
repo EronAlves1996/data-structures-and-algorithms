@@ -7,6 +7,7 @@ Page 239 all from 5.14
 Page 270 all from 6.11
 Page 318 all from 7.7
 Page 368 all from 8.3
+
 page 388 to 427
 
 ### Answers not in code
@@ -371,6 +372,17 @@ The first loop implies some sort of O(n). The second loop suggests a O(n²). The
 #### 4.14
 
 If d(n) is O(f(n)), then f(n) = d(n). That way, f(n) = ad(n), where a is constant, d(n) always represents the upper bound, regardless of a.
+
+
+#### 4.15
+
+```
+d(n) = O(f(n))
+e(n) = O(g(n))
+d(n)e(n) => O(f(n))O(g(n))
+Such as Big O is a notation and not a term, then
+O(f(n)g(n))
+```
 
 ### Chapter 5
 
