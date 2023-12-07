@@ -1,9 +1,9 @@
 Page 74 all from 1.19
 Page 117 all from 2.19
 Page 164 all from 3.17
+Page 200 all from 4.16
+Page 239 all from 5.15
 
-Page 200 all from 4.15
-Page 239 all from 5.14
 Page 270 all from 6.11
 Page 318 all from 7.7
 Page 368 all from 8.3
@@ -523,6 +523,13 @@ public static int product(int m, int n){
   return m + product(m, n - 1);
 }
 ```
+
+
+#### 5.14
+
+The dashes printed for drawInterval(0) is 0, that way 2^(0 + 1) - 0 - 2 = 2 - 2 = 0;
+That's essentially true.
+(not shure about how to going on)
 
 ### Chpater 6
 
